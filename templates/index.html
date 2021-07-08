@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+	<h1> {{he1}} </h1>	
+	
+	<h3> 
+       <a href="/getcsv1">Click here to download the
+	below table in csv format.</a>
+       </h3>	
+
+	<h3> 
+       <a href="/getjson1">Click here to download the
+	below table in json format.</a>
+       </h3>	
+
+	<body>
+
+		{% for table in tables1 %}
+            	{{ table|safe }}
+		{% endfor %}
+	</body>
+	
+	<h1> {{he2}}</h1>
+	
+	<h3> 
+       <a href="/getcsv2">Click here to download the 		below table in csv format.</a>
+       </h3>	
+	
+	<h3> 
+       <a href="/getjson2">Click here to download the
+	below table in json format.</a>
+       </h3>	
+
+	<body>
+		{% for table in tables2 %}
+            	{{ table|safe }}
+		{% endfor %}
+	</body>
+
+
+</html>

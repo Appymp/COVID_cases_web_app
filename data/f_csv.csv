@@ -1,0 +1,12 @@
+,Year,Month_name,acc_hosp,acc_intcare,acc_home_returns,acc_deaths
+0,2020,March,61,12,13,9
+1,2020,April,220,16,84,57
+2,2020,May,57,2,81,13
+3,2020,June,23,0,51,5
+4,2020,July,12,0,21,1
+5,2020,August,7,0,25,1
+6,2020,September,86,16,31,7
+7,2020,October,247,35,118,28
+8,2020,November,350,38,239,76
+9,2020,December,219,29,184,46
+10,2021,January,184,18,150,43
